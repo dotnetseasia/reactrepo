@@ -1,0 +1,253 @@
+{
+  "listModuleMaster": [
+    
+    {
+      "moduleName": "Master Configuration",
+      "moduleId": "3",
+      "displayOrder": 1,
+      "isChecked": null,
+      "to": "",
+      "text": "Master Setup",
+      "icon": "Icons.MasterCong",
+      "IsOpen": false,
+      "AdminOnly": true,
+      "listPageMaster": [
+        {
+          "pageName": "Departments",
+          "pageId": "3_1",
+          "displayOrder": 1,
+          "isChecked": true,
+          "to": "/manage-department",
+          "text": "Departments",
+          "icon": "Icons.Project",
+          "listTabMaster": [
+            {
+              "tabName": "Departments Listing",
+              "TabId": "3_1_1",
+              "displayOrder": 1,
+              "isChecked": true,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_1_1_1",
+                  "displayOrder": 1,
+                  "isChecked": true
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_1_1_2",
+                  "displayOrder": 2,
+                  "isChecked": true
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_1_1_3",
+                  "displayOrder": 2,
+                  "isChecked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageName": "Designations",
+          "pageId": "3_2",
+          "displayOrder": 1,
+          "isChecked": null,
+          "to": "/manage-designation",
+          "text": "Designations",
+          "icon": "Icons.Project",
+          "listTabMaster": [
+            {
+              "tabName": "Designations Listing",
+              "TabId": "3_2_1",
+              "displayOrder": 1,
+              "isChecked": null,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_2_1_1",
+                  "displayOrder": 1,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_2_1_2",
+                  "displayOrder": 2,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_2_1_3",
+                  "displayOrder": 2,
+                  "isChecked": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageName": "Skills",
+          "pageId": "3_3",
+          "displayOrder": 1,
+          "isChecked": null,
+          "to": "/manage-technicalskill",
+          "text": "SkillSets",
+          "icon": "Icons.User",
+          "listTabMaster": [
+            {
+              "tabName": "Skills Listing",
+              "TabId": "3_3_1",
+              "displayOrder": 1,
+              "isChecked": null,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_3_1_1",
+                  "displayOrder": 1,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_3_1_2",
+                  "displayOrder": 2,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_3_1_3",
+                  "displayOrder": 2,
+                  "isChecked": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageName": "Labels",
+          "pageId": "3_5",
+          "displayOrder": 1,
+          "isChecked": null,
+          "to": "/manage-label",
+          "text": "Labels",
+          "icon": "Icons.User",
+          "listTabMaster": [
+            {
+              "tabName": "Label Listing",
+              "TabId": "3_5_1",
+              "displayOrder": 1,
+              "isChecked": null,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_5_1_1",
+                  "displayOrder": 1,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_5_1_2",
+                  "displayOrder": 2,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_5_1_3",
+                  "displayOrder": 2,
+                  "isChecked": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageName": "Channels",
+          "pageId": "3_6",
+          "displayOrder": 1,
+          "isChecked": null,
+          "to": "/editmanage-channel",
+          "text": "Channels",
+          "icon": "Icons.User",
+          "listTabMaster": [
+            {
+              "tabName": "Channels Listing",
+              "TabId": "3_6_1",
+              "displayOrder": 1,
+              "isChecked": null,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_6_1_1",
+                  "displayOrder": 1,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_6_1_2",
+                  "displayOrder": 2,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_6_1_3",
+                  "displayOrder": 2,
+                  "isChecked": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageName": "Head Of Departments",
+          "pageId": "3_4",
+          "displayOrder": 1,
+          "isChecked": null,
+          "to": "/manage-HodData",
+          "text": "Manage HOD",
+          "icon": "Icons.User",
+          "listTabMaster": [
+            {
+              "tabName": "Head Of Departments Listing",
+              "TabId": "3_4_1",
+              "displayOrder": 1,
+              "isChecked": null,
+              "listActionMaster": [
+                {
+                  "actionName": "Add",
+                  "actionId": "3_4_1_1",
+                  "displayOrder": 1,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Edit",
+                  "actionId": "3_4_1_2",
+                  "displayOrder": 2,
+                  "isChecked": null
+                },
+                {
+                  "actionName": "Delete",
+                  "actionId": "3_4_1_3",
+                  "displayOrder": 2,
+                  "isChecked": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleName": "Escalation",
+      "moduleId": "7",
+      "displayOrder": 9,
+      "isChecked": null,
+      "to": "/escalation",
+      "text": "Escalation",
+      "icon": "Icons.Escalation",
+      "IsOpen": false,
+      "AdminOnly": false,
+      "listPageMaster": []
+    }
+    
+  ]
+}

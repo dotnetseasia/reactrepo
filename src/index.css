@@ -1,0 +1,130 @@
+/* @font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('./assests/fonts/GTWalsheimProBold.woff2') format('woff2'),
+    url('./assests/fonts/GTWalsheimProBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('./assests/fonts/GTWalsheimProRegular.woff2') format('woff2'),
+    url('./assests/fonts/GTWalsheimProRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 
+.progress {
+  display: flex;
+  height: .3rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.progress-bar {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  transition: width .6s ease;
+} */
+/* 
+.quill {
+  height: 75%;
+} */
+
+.ql-tooltip.ql-editing {
+  left: 9px !important;
+}
+
+
+.MuiPaper-root .fc-toolbar-title {
+  color: #232360 !important;
+}
+
+.fc .fc-button-primary {
+  background-color: #1DA7FF !important;
+  border: none !important;
+}
+
+.google-visualization-orgchart-table .google-visualization-orgchart-node {
+  background: #F0F9FF;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  padding: 8px 16px;
+
+}
+
+.Toastify__toast--default.cutomToast {
+  color: #232360;
+  border-radius: 0;
+  min-height: 64px;
+  font-size: 14px;
+  font-weight: 600;
+  border-left: 4px solid #2DD36F;
+}
+
+p img {
+  max-width: 100%;
+}
+
+.esc-search input {
+  width: 100%;
+}
+
+.fc-button.fc-button-primary.fc-button-active {
+  background-color: #017ac7 !important;
+}
+
+.searcg-field {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
+  background: none; 
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+ 
+  animation-name: mui-auto-fill-cancel;
+  animation-duration: 10ms;
+  padding:6px 14px 6px 40px;
+}
